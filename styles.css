@@ -58,3 +58,42 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #startBtn {
+    
+    position: absolute;
+    left: 100px;
+    top: 20  px;
+    padding: 30px;
+    
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta section */
+#cta {
+  padding: 4% 15%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer {
+  padding: 2% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
